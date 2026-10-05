@@ -67,5 +67,20 @@ Views: здесь находится главный экран приложен�
 - JetBrains Rider;
 - установленным .NET SDK;
 - настроенным .NET MAUI workload;
-- Android SDK и эмулятором либо физическим Android-устройством.
+- Android SDK и эмулятором либо физическим Android-устройством./
+
+# Иерархия для TaskItem.cs, TaskPriority.cs и MainPage.xaml:
+
+```text
+TaskManager
+│
+├── Models
+│   └── TaskItem.cs
+│   └── TaskPriority.cs
+│
+├── Views
+│   ├── MainPage.xaml
+│
+остальное без изменений
+```
 
